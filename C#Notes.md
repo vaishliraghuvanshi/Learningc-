@@ -38,7 +38,7 @@ Example -
 if (1 = 1) // Wrong
 
 6.**Different Scope Issue** – Variable exists only inside its scope
-Example -
+**Example** -
 public static void Main(string[] args) {
     int age = 35;
 }
@@ -47,11 +47,11 @@ private static void MyClass() {
 }
 7.**Cannot Access Private** – Private members must be public to be accessible.
 
-4. Variables -Containers that store data
+4. **Variables** -Containers that store data
 
-Data Types – string, int, bool
+**Data Types** – string, int, bool
 
-Examples of Math Operations:
+**Example** of Math Operations:
 int age = 35;
 age = age + 1;   // 36
 age++;           // 37
@@ -60,23 +60,23 @@ age = age * 2;   // 70
 age = age / 2;   // 17
 Console.WriteLine(age);
 
-5. Why Data Types Are Important?
+5. **Why Data Types Are Important?**
 
 Each variable must have a data type.
 
 The data type defines what kind of value the variable can store.
 
-6. Good Naming Conventions
+6. **Good Naming Conventions**
 
 A good variable name describes exactly what the variable represents.
 
-7. What is Console.WriteLine()?
+7. **What is Console.WriteLine()?**
 
 A function that writes output to the console in C#.
 
 Console.WriteLine("Hello, World!");
 
-8. What if a Variable is Declared but Not Initialized?
+8. **What if a Variable is Declared but Not Initialized?**
 
 If you don’t assign a value, the variable is uninitialized and cannot be used.
 
